@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../static/img/登入背景75.jpg);
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}

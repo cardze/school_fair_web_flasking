@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+}
+
+#ribbonButton {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    right: 0;
+    width: 170px;
+    height: 45px;
+    color: white;
+    background: #77a6cd;
+    top: 30px;
+}
+
+#ribbonButton:before {
+    content: " ";
+    border-width: 22.5px 15px 22.5px 28px;
+    border-style: solid;
+    border-color: #77a6cd #77a6cd #77a6cd transparent;
+    position: absolute;
+    right: 100%;
+    top: 0;
+}
+
+#cart {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+    left: 80px;
+    width: fit-content;
+}
+
+#cart1 {
+    padding: 10px;
+    position: absolute;
+    letter-spacing: 10px;
+    font-size: 37px;
+    text-align: center;
+    width: 180px;
+    height: 80px;
+    background: #3E6DAB;
+    color: white;
+}
+
+#cart1:before {
+    content: " ";
+    border-width: 40px 15px 40px 28px;
+    border-style: solid;
+    border-color: #3E6DAB #3E6DAB #3E6DAB transparent;
+    position: absolute;
+    right: 100%;
+    top: 0;
+}
+
+#cart1:after {
+    content: " ";
+    border-width: 40px 15px 40px 28px;
+    border-style: solid;
+    border-color: transparent transparent transparent #3E6DAB;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+#cart1 .badge {
+    padding-top: 4px;
+    padding-bottom: 7px;
+    padding-right: 0;
+    padding-left: 10px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+    border-radius: 100%;
+    background: red;
+    color: white;
+}
+
+#cart2 {
+    position: absolute;
+    background: #77a6cd;
+    width: 13px;
+    height: 80px;
+    left: 220px;
+}
+
+#cart2:before {
+    content: " ";
+    border-width: 40px 1px 40px 28px;
+    border-style: solid;
+    border-color: #77a6cd #77a6cd #77a6cd transparent;
+    position: absolute;
+    right: 100%;
+    top: 0;
+}
+
+#cart2:after {
+    content: " ";
+    border-width: 40px 15px 40px 28px;
+    border-style: solid;
+    border-color: transparent transparent transparent #77a6cd;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+#cart3 {
+    position: absolute;
+    background: #F6E019;
+    width: 1px;
+    height: 80px;
+    left: 270px;
+}
+
+#cart3:before {
+    content: " ";
+    border-width: 40px 1px 40px 28px;
+    border-style: solid;
+    border-color: #F6E019 #F6E019 #F6E019 transparent;
+    position: absolute;
+    right: 100%;
+    top: 0;
+}
+
+#cart3:after {
+    content: " ";
+    border-width: 40px 15px 40px 28px;
+    border-style: solid;
+    border-color: transparent transparent transparent #F6E019;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}

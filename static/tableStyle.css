@@ -1,0 +1,359 @@
+/*手機模式的css*/
+
+@media only screen and (max-width: 767px) {
+    #title {
+        letter-spacing: 6px;
+    }
+    #title img {
+        height: 100px;
+        width: 100px;
+    }
+    #title p {
+        font-size: 10px;
+        color: #3E6DAB;
+    }
+    #nav {
+        width: 27vw;
+        bottom: 5px;
+        right: 5px;
+    }
+    #menu {
+        justify-content: space-between;
+        position: relative;
+        z-index: 3;
+        height: 20vw;
+    }
+    .ribbonButton1 {
+        text-align: center;
+        font-size: 3vw;
+        right: 0;
+        top: 45vw;
+        width: 18vw;
+        height: 6vw;
+        color: white;
+        background: #77a6cd;
+    }
+    .ribbonButton2 {
+        text-align: center;
+        font-size: 3vw;
+        right: 0;
+        top: 57vw;
+        width: 18vw;
+        height: 6vw;
+        color: white;
+        background: #3E6DAB;
+    }
+    .ribbonButton2 .badge {
+        position: absolute;
+        font-size: 2vmin;
+        top: -2vmin;
+        right: 1vw;
+        border-radius: 100%;
+        background: red;
+        color: white;
+    }
+    .ribbonButton1:before {
+        content: " ";
+        border-width: 3vw 2vw;
+        border-style: solid;
+        border-color: #77a6cd #77a6cd #77a6cd transparent;
+        position: absolute;
+        right: 100%;
+        top: 0%;
+    }
+    .ribbonButton2:before {
+        content: " ";
+        border-width: 3vw 2vw;
+        border-style: solid;
+        border-color: #3E6DAB #3E6DAB #3E6DAB transparent;
+        position: absolute;
+        right: 100%;
+        top: 0%;
+    }
+    #lottery {
+        font-size: 3.5vw;
+        left: 0;
+        top: 45vw;
+        width: 18vw;
+        height: 18vw;
+        color: #3E6DAB;
+        background-color: transparent;
+    }
+    #lottery img {
+        width: 18vw;
+        height: 9vh;
+    }
+    #lottery p {
+        font-size: 3vw;
+        color: black;
+    }
+    .img-responsive-y,
+    .img-responsive-b {
+        width: 30vw;
+        height: 30vw;
+    }
+    .img-responsive-y {
+        box-shadow: 7px 7px #F6E019;
+    }
+    .img-responsive-b {
+        box-shadow: 7px 7px #3E6DAB;
+    }
+    .img-responsive-y:hover,
+    .img-responsive-b:hover {
+        opacity: 0.5;
+    }
+    #ribbonButton {
+        display: flex;
+        flex-direction: column;
+        right: 0;
+    }
+    #ribbonButton,
+    #lottery {
+        position: fixed;
+        border: transparent;
+        cursor: pointer;
+        z-index: 4;
+        font-weight: bolder;
+    }
+    button {
+        background-color: transparent;
+        border: transparent;
+        outline: none;
+    }
+    #clubView .row .col-,
+    #clubView .row .col-sm,
+    #clubView .row .col-md,
+    #clubView .row .col-lg,
+    #clubView .row .col-xl {
+        padding: 25px;
+    }
+}
+
+
+/*平板模式的css*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    button {
+        background-color: transparent;
+        border: transparent;
+        outline: none;
+    }
+    #menu {
+        justify-content: space-between;
+        position: relative;
+        z-index: 3;
+        height: 175px;
+    }
+    #ribbonButton,
+    #lottery {
+        position: fixed;
+        border: transparent;
+        cursor: pointer;
+        z-index: 4;
+        font-weight: bolder;
+    }
+    #ribbonButton {
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        top: 40vmin;
+    }
+    #ribbonButton1 {
+        text-align: start;
+        right: 0;
+        top: 340px;
+        width: 150px;
+        height: 45px;
+        margin-bottom: 30px;
+        color: white;
+        background: #77a6cd;
+    }
+    #ribbonButton1:before {
+        content: " ";
+        border-width: 15px 15px;
+        border-style: solid;
+        border-color: #77a6cd #77a6cd #77a6cd transparent;
+        position: absolute;
+        right: 100%;
+        top: 0%;
+    }
+    #ribbonButton2 {
+        text-align: start;
+        right: 0;
+        top: 400px;
+        width: 150px;
+        height: 45px;
+        color: white;
+        background: #3E6DAB;
+    }
+    #ribbonButton2:before {
+        content: " ";
+        border-width: 15px 15px;
+        border-style: solid;
+        border-color: #3E6DAB #3E6DAB #3E6DAB transparent;
+        position: absolute;
+        right: 100%;
+        bottom: 0%;
+    }
+    #ribbonButton2 .badge {
+        position: absolute;
+        bottom: 15px;
+        right: 10px;
+        border-radius: 50%;
+        background: red;
+        color: white;
+    }
+    #lottery {
+        left: 0px;
+        top: 37vmin;
+        height: 150px;
+        width: 150px;
+        background-color: transparent;
+    }
+    #lottery img {
+        height: 150px;
+        width: 150px;
+    }
+    #lottery p {
+        font-size: 20px;
+        color: black;
+    }
+    .img-responsive-y,
+    .img-responsive-b {
+        width: 125px;
+        height: 125px;
+    }
+    .img-responsive-y {
+        box-shadow: 10px 10px #F6E019;
+    }
+    .img-responsive-b {
+        box-shadow: 10px 10px #3E6DAB;
+    }
+    .img-responsive-y:hover,
+    .img-responsive-b:hover {
+        opacity: 0.5;
+    }
+    #clubView .row .col-,
+    #clubView .row .col-sm,
+    #clubView .row .col-md,
+    #clubView .row .col-lg,
+    #clubView .row .col-xl {
+        padding: 25px;
+    }
+}
+
+
+/*電腦模式的css*/
+
+@media only screen and (min-width: 1025px) {
+    button {
+        background-color: transparent;
+        border: transparent;
+        outline: none;
+    }
+    #menu {
+        justify-content: space-between;
+        position: relative;
+        z-index: 3;
+        height: 300px;
+    }
+    #menu img {
+        width: 1000px;
+        height: 300px;
+    }
+    #ribbonButton,
+    #lottery {
+        position: fixed;
+        border: transparent;
+        z-index: 4;
+        font-weight: bolder;
+    }
+    #ribbonButton {
+        top: 37vmin;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+    }
+    #ribbonButton1 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 30px;
+        width: 170px;
+        height: 45px;
+        color: white;
+        background: #77a6cd;
+    }
+    #ribbonButton1:before {
+        content: " ";
+        border-width: 22.5px 15px 22.5px 28px;
+        border-style: solid;
+        border-color: #77a6cd #77a6cd #77a6cd transparent;
+        position: absolute;
+        right: 100%;
+        top: 0;
+    }
+    #ribbonButton2 {
+        text-align: center;
+        font-size: 30px;
+        width: 170px;
+        height: 45px;
+        color: white;
+        background: #3E6DAB;
+    }
+    #ribbonButton2:before {
+        content: " ";
+        border-width: 22.5px 15px 22.5px 28px;
+        border-style: solid;
+        border-color: #3E6DAB #3E6DAB #3E6DAB transparent;
+        position: absolute;
+        right: 100%;
+        bottom: 0;
+    }
+    #ribbonButton2 .badge {
+        position: absolute;
+        font-size: 15px;
+        bottom: 30px;
+        right: 10px;
+        border-radius: 50%;
+        background: red;
+        color: white;
+    }
+    #lottery {
+        left: 0px;
+        top: 37vmin;
+        height: 200px;
+        width: 200px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    #lottery img {
+        height: 200px;
+        width: 200px;
+    }
+    #lottery p {
+        font-size: 20px;
+        color: black;
+    }
+    .img-responsive-y,
+    .img-responsive-b {
+        width: 150px;
+        height: 150px;
+    }
+    .img-responsive-y {
+        box-shadow: 15px 15px #F6E019;
+    }
+    .img-responsive-b {
+        box-shadow: 15px 15px #3E6DAB;
+    }
+    .img-responsive-y:hover,
+    .img-responsive-b:hover {
+        opacity: 0.5;
+    }
+    #clubView .row .col-,
+    #clubView .row .col-sm,
+    #clubView .row .col-md,
+    #clubView .row .col-lg,
+    #clubView .row .col-xl {
+        padding: 25px;
+    }
+}

@@ -1,0 +1,44 @@
+{% extends "base.html" %} {% block head %}
+
+<head>
+    <link rel="stylesheet" href="../static/css/shopcartStyle.css">
+</head>
+{% endblock %} {% block main %}
+<div class="container-fluid" style="height: 300px; position: relative;">
+    <div id="cart">
+        <label id="cart1">
+            購物車
+            <span class="badge">3</span>
+        </label>
+        <label id="cart2"></label>
+        <label id="cart3"></label>
+    </div>
+    <button id="ribbonButton" style="outline: none;">
+    搜 尋&nbsp;<i class="fas fa-search"></i>
+</div>
+
+<div class = "container-fluid">
+    <div class = "row">
+        <div class = "col">
+            <img src="../static/img/飲料(藍).png" style="width: 100px; height: 100px;">
+        </div>
+        <div class= "col">
+            aaaa
+        </div>
+        <div class="col">
+            $10000000
+        </div>
+        <div class="col">
+            <div class="row">
+                <button class="col">
+                    -
+                </button>
+    <input class="col" type="text" name="" oninput="value=value.replace(/[^\d]/g,'')">
+    <button class="col">
+                    +
+                </button>
+</div>
+</div>
+</div>
+</div>
+{% endblock %}

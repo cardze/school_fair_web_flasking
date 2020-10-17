@@ -1,0 +1,60 @@
+{% extends "base.html" %} {% block head %}
+
+<head>
+    <link rel="stylesheet" href="../static/css/shop_contentStyle.css">
+</head>
+{% endblock %} {% block main %}
+<button id="lottery" style="outline: none;">
+    <img src="../static/img/抽獎.png"><p align = "start">倒數:02:20:32</p>
+</button>
+<div id="ribbonButton">
+    <button id="ribbonButton1" style="outline: none;">
+    搜 尋&nbsp;<i class="fas fa-search"></i>
+</button>
+    <button id="ribbonButton2" style="outline: none;">
+    購 物 車
+    <span class="badge">3</span>
+</button>
+</div>
+<div class="container-fluid" style="height: 200px;"></div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <div class="col" style="margin-left: 10px; text-align:center;">
+                    <img src="./danger.jpg" title="社團圖片" alt="error" width="300px" height="300px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="margin-left: 10px; text-align:center;">
+                    <h1>社團簡介</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row align-items-start" style="margin-top:30px;">
+                <div class="col">
+                    <img src="./danger.jpg" width="100px" height="100px" style="box-shadow: 10px 10px 0px #77a6cd;">
+                </div>
+                <div class="col">
+                    <img src="./danger.jpg" width="100px" height="100px" style="box-shadow: 10px 10px 0px #f6e019;">
+                </div>
+                <div class="col">
+                    <img src="./danger.jpg" width="100px" height="100px" style="box-shadow: 10px 10px 0px #77a6cd;">
+                </div>
+            </div>
+            <div class="row align-items-start" style="margin-top:30px;">
+                <div class="col">
+                    <img src="./danger.jpg" width="100px" height="100px" style="box-shadow: 10px 10px 0px #f6e019;">
+                </div>
+                <div class="col">
+                    <img src="./danger.jpg" width="100px" height="100px" style="box-shadow: 10px 10px 0px #77a6cd;">
+                </div>
+                <div class="col">
+                    <img src="./danger.jpg" width="100px" height="100px" style="box-shadow: 10px 10px 0px #f6e019;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

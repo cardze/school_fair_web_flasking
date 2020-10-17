@@ -1,0 +1,88 @@
+button {
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+}
+
+#ribbonButton,
+#lottery {
+    position: fixed;
+    border: transparent;
+    z-index: 4;
+    font-weight: bolder;
+}
+
+#ribbonButton {
+    top: 37vmin;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+}
+
+#ribbonButton1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    width: 170px;
+    height: 45px;
+    color: white;
+    background: #77a6cd;
+}
+
+#ribbonButton1:before {
+    content: " ";
+    border-width: 22.5px 15px 22.5px 28px;
+    border-style: solid;
+    border-color: #77a6cd #77a6cd #77a6cd transparent;
+    position: absolute;
+    right: 100%;
+    top: 0;
+}
+
+#ribbonButton2 {
+    text-align: center;
+    font-size: 30px;
+    width: 170px;
+    height: 45px;
+    color: white;
+    background: #3E6DAB;
+}
+
+#ribbonButton2:before {
+    content: " ";
+    border-width: 22.5px 15px 22.5px 28px;
+    border-style: solid;
+    border-color: #3E6DAB #3E6DAB #3E6DAB transparent;
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+}
+
+#ribbonButton2 .badge {
+    position: absolute;
+    font-size: 15px;
+    bottom: 30px;
+    right: 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+#lottery {
+    left: 0px;
+    top: 37vmin;
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#lottery img {
+    height: 200px;
+    width: 200px;
+}
+
+#lottery p {
+    font-size: 20px;
+    color: black;
+}
