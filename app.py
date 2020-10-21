@@ -1,4 +1,5 @@
 from flask import Flask, render_template, jsonify
+
 from flask_sqlalchemy import SQLAlchemy
 from flask_restful import Resource, Api
 
@@ -25,18 +26,7 @@ def index():
     return render_template("login.html")
 
 
-@app.route('/connect_db', methods=['GET'])
-def con_db():
-    cur = db.engine.execute(select_table['product']+''';''')
-    rv = cur.fetchall()
-    temp = ""
-    for item in rv:
-        temp = temp+str(item)+"\r\n"
-    print(temp)
-    return temp
-
-
-@app.route('/read_all/<string:table_name>', methods=['GET'])
+@app.route('/read_all/<string:table_name>', methods=['GET']) # 
 def read_all(table_name):
     print(str(select_table[table_name]+''';'''))
     cur = db.engine.execute(select_table[table_name]+''';''')
